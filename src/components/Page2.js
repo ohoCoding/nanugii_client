@@ -13,13 +13,13 @@ const Page2 = () => {
           <Image></Image>
 
           <div style={{ flexDirection: "column", margin: "20px" }}>
-            <H1>
+            {/* <H1>
               비싸다면
               <br />
               포장으로 다같이 할인받자!
-            </H1>
-            <P>동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.</P>
-            <div style={{ marginTop: "3.2rem" }}>
+            </H1> */}
+            {/* <P>동네 주민들과 가깝고 따뜻한 거래를 지금 경험해보세요.</P> */}
+            {/* <div style={{ marginTop: "3.2rem" }}> */}
               {/* 버튼 2개는 Link로 컴포넌트 만든 것 연결하기 */}
               {/* <Button
                 onClick={() => {
@@ -29,7 +29,7 @@ const Page2 = () => {
                 인기매물 보기
               </Button>
               <A href="https://www.daangn.com/trust">믿을 수 있는 중고거래</A> */}
-            </div>
+            {/* </div> */}
           </div>
         </DIV>
       </div>
@@ -40,7 +40,7 @@ const Page2 = () => {
 export default Page2;
 
 const DIV = styled.div`
-  width: 1024px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -49,8 +49,8 @@ const DIV = styled.div`
 
 const Image = styled.div`
   background-image: url(${banner2});
-  background-size: 532px 684px;
-  width: 532px;
+  background-size: 1200px 684px;
+  width: 1200px;
   height: 684px;
 `;
 

@@ -6,10 +6,10 @@ import banner4 from "../shared/banner4.png";
 const Page4 = () => {
   return (
     <React.Fragment>
-      <div style={{ padding: "6rem 0", display: "block" }}>
+      <div style={{ padding: "6rem 0"}}>
         <Div>
           <Image></Image>
-          <div>
+          {/* <div>
             <H1>
               멀리있는 맛집까지
               <br /> 부담없이 배달시켜!
@@ -22,7 +22,7 @@ const Page4 = () => {
             {/* <div>
               <A href="https://town.daangn.com/">당근마켓 동네가게 찾기</A>
             </div> */}
-          </div>
+          {/* </div> */}
         </Div>
       </div>
     </React.Fragment>
@@ -32,7 +32,7 @@ const Page4 = () => {
 export default Page4;
 
 const Div = styled.div`
-  width: 1024px;
+  width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -41,8 +41,8 @@ const Div = styled.div`
 
 const Image = styled.div`
   background-image: url(${banner4});
-  background-size: 526px 735px;
-  width: 526px;
+  background-size: 1200px 735px;
+  width: 1200px;
   height: 735px;
   display: inline-block;
 `;

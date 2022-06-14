@@ -9,20 +9,19 @@ const Page3 = () => {
       <div
         style={{
           padding: "6rem 0",
-          backgroundColor: "#cfdde8",
           display: "block",
         }}
       >
         <Div>
           <Image></Image>
-          <div>
+          {/* <div>
             <H1>
               근처에 있는
               <br /> 맛집도 공유받기!
             </H1>
             <P>다른 사람만 알고있던 맛집도 알고, <br />나만 알고있던 맛집도 공유하고!
             </P>
-          </div>
+          </div> */}
         </Div>
       </div>
     </React.Fragment>
@@ -35,17 +34,17 @@ const Div = styled.div`
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  width: 1024px;
+  width: 1500px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-evenly;
 `;
 
 const Image = styled.div`
-  // background-image: url(${banner3});
-  background-size: 546px 740px;
-  width: 546px;
+  bottom: 0;
+  width: 1200px;
   height: 740px;
-  display: inline-block;
+  background-image: url(${banner3});
+  background-size: 1200px 740px;
 `;
 
 const H1 = styled.div`

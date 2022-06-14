@@ -7,15 +7,15 @@ const Page1 = () => {
   return (
     <React.Fragment>
       {/* 배너 1 */}
-      <div style={{ backgroundColor: "#cfdde8" }}>
+      <div style={{}}>
         <DIV1>
-          <div
+          {/* <div
             style={{
               flexDirection: "column",
               justifyContent: "space-between",
             }}
-          >
-            <H1>
+          > */}
+            {/* <H1>
               이웃과 배달비를
               <br />
               나눌수 있다!
@@ -24,8 +24,8 @@ const Page1 = () => {
               동네 이웃과 같이 배달비도 나누고
               <br />
               친해지고! <strong>'나'</strong>와 <strong>'누'</strong>군가<strong>'기'</strong>다렸던 플랫폼
-            </P>
-          </div>
+            </P> */}
+          {/* </div> */}
 
           <Image1></Image1>
         </DIV1>
@@ -40,7 +40,6 @@ const DIV1 = styled.div`
   width: 1500px;
   height: 760px;
   margin: 0px 100px 0px 200px;
-  background-color: #cfdde8;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -67,9 +66,9 @@ const P = styled.p`
 
 const Image1 = styled.div`
   bottom: 0;
-  width: 754px;
+  width: 1200px;
   height: 635px;
   background-image: url(${banner1});
-  background-size: 754px 635px;
+  background-size: 1200px 635px;
   margin: 120px 0px 0px 0px;
 `;

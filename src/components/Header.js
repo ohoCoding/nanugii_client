@@ -15,12 +15,12 @@ const Header = (props) => {
         }}
       >
         <Grid is_flex padding="5px 0px" width="1024px" margin="auto">
-          <Grid is_start maxwidth="700px">
+          <Grid is_start maxwidth="2000px">
             <Image
               onClick={() => {
                 history.replace("/");
               }}
-              src="../assets/images/logo.png"
+              src={'/logo.png'}
             ></Image>
             <InputWrap>
               <Grid is_flex>
@@ -123,7 +123,7 @@ const Input = styled.input`
 `;
 
 const Image = styled.img`
-  width: 120px;
+  width: 70px;
 `;
 
 const Button = styled.div`
